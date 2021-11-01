@@ -1,9 +1,9 @@
+import Navbar from "../components/Navbar";
+
 export default function Home({ }) {
   return (
     <main>
-        <h1 className='text-center text-8xl shadow-lg rounded-lg'>
-            Hello World!
-        </h1>
+        <Navbar />
     </main>
   )
 }
